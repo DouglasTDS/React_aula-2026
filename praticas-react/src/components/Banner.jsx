@@ -1,10 +1,10 @@
-function Banner() {
+function Banner({destaque, titulo, descricao}) {
     return (
         <section className="banner">
-            <p>CAFÉ ESPECIAL</p>
-            <h2>Café para todos os momentos</h2>
+             <p>{destaque}</p>
+            <h2>{titulo}</h2>
             <span>
-                Escolha seu favorito e aproveite.
+                {descricao}
             </span>
         </section>
     );

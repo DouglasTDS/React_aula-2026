@@ -1,7 +1,8 @@
-function Footer() {
+function Footer({nome, ano}) {
     return (
         <footer className="footer">
-            <p>© 2026 Essenza Café</p>
+            <p> {nome}</p>
+            <p>{ano}</p>
             <p>Feito com React</p>
         </footer>
     );
