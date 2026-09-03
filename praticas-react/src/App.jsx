@@ -1,10 +1,12 @@
 
 import Header from "./components/Header"
-import Produtos from "./components/produtos"
+import Produtos from "./components/Produtos"
 import Banner from "./components/banner"
-import Footer from "./components/footer"
+import Footer from "./components/Footer"
 import Oferta from "./components/Oferta"
+import Destaques from "./components/Destaques"
 import './App.css'
+
  
 
 function App() {
@@ -29,10 +31,15 @@ function App() {
      
      <Produtos/>
 
+     <Destaques/>
+
      <Footer 
      nome="Essenza Café"
      ano="© 2026 "
      />
+
+    
+     
     </>
   )
 }
