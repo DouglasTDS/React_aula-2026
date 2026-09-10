@@ -4,9 +4,11 @@ function Beneficios(){
 
     return (
 
-        <section className="bene ficios" id="beneficios"> 
-        
+        <section className="beneficios" id="beneficios"> 
+          <h2>Por que estudar conosco?</h2>
         <div className="cards">
+
+          
 
             <Card titulo='Aulas praticas'>
                 <p>Aprenda construindo pequenos projetos</p>

@@ -1,3 +1,5 @@
+ import Input from "./Input"
+
  function Formulario(){
 
     return (
@@ -16,11 +18,13 @@
                 />
 
                 <Input 
-                label='e-mail'
-                tipo='e-mail'
-                id="e-mail"
+                label='email'
+                tipo='email'
+                id="email"
                 placeholder='Digite seu e-mail'
                 />
+
+                <button>Enviar</button>
             </form>
         </section>
     );

@@ -6,10 +6,13 @@ function Input ({id, label, tipo, placeholder}) {
 
             <label htmlFor={id}>{label}</label>
 
-            <Input type={tipo}
+            <input
+             type={tipo}
             id={id}
             placeholder={placeholder}
             />
         </div>
-    )
-}
+    );
+};
+
+export default Input;

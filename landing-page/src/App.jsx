@@ -5,7 +5,9 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Beneficios from './components/Beneficios'
 import Formulario from './components/Formulario'
+import Footer from './components/Footer'
 import './App.css'
+
 function App() {
 
   return (
@@ -20,7 +22,7 @@ function App() {
     
      <Beneficios/>
      <Formulario/>
-     
+     <Footer/>
     </>
   )
 }

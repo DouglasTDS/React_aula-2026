@@ -2,9 +2,9 @@ function Header() {
 
     return (
 
-        <header>
+        <header className="header">
 
-            <h2 className="header">codeSTART</h2>
+            <h2 >codeSTART</h2>
 
             <nav>
 
@@ -14,6 +14,6 @@ function Header() {
             </nav>
         </header>
     );
-}
+};
 
 export default Header; 
