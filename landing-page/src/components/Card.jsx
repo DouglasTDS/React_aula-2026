@@ -10,7 +10,11 @@ function Card({titulo,children}) {
 
             </div>
         </div>
+
+        
+
     )
 }
+
 
 export default Card;

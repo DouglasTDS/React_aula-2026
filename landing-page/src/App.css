@@ -59,19 +59,33 @@
     
 
 }
-.hero imagem{
-width: 1000px;
-border-radius: 10px;
+.hero-imagem{
+width: 1897px;
+height: 500px;
+border-radius: 5px;
 
 
 
 }
 
-img-content{
+.img-content{
 
     background-image:"https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?auto=format&fit=crop&w=1200&q=80" ;
     object-fit: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    
+}
+
+.depoimentosAlunos{
+
+    padding:6px 8% ;
+}
+
+
+.depoimentosAlunos h2{
+
+    text-align: center;
+     margin-bottom: 35px;
 }
 .beneficios{
 
@@ -89,6 +103,7 @@ img-content{
 .cards{
     display: flex;
     gap: 20px;
+    
 
 }
 
@@ -106,6 +121,13 @@ img-content{
     margin-top: 0;
 
 }
+
+.card p{
+
+    margin-top: 8px;
+}
+
+
 
 
 .contato{
@@ -143,7 +165,7 @@ img-content{
     outline: 2px solid #2563eb;
 }
 
-.form button{
+form button{
 
     width: 100%;
     padding: 12px;

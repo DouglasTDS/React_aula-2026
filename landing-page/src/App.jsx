@@ -6,7 +6,10 @@ import Hero from './components/Hero'
 import Beneficios from './components/Beneficios'
 import Formulario from './components/Formulario'
 import Footer from './components/Footer'
+import Depoimento from './components/Depoimento'
+import Contatos from './components/Contatos'
 import './App.css'
+
 
 function App() {
 
@@ -19,9 +22,11 @@ function App() {
      botao='Quero começar'
 
      />
-    
+   
      <Beneficios/>
      <Formulario/>
+    <Depoimento/>
+    <Contatos/>
      <Footer/>
     </>
   )
