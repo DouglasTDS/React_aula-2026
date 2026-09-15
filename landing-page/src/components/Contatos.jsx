@@ -4,7 +4,7 @@ import Input from "./Input"
 
     return (
 
-        <section className="contato" id="contato">
+        <section className="entre-contato" id="contato">
 
             <h2>Entre em contato</h2>
 
