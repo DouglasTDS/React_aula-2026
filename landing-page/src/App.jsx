@@ -8,7 +8,9 @@ import Formulario from './components/Formulario'
 import Footer from './components/Footer'
 import Depoimento from './components/Depoimento'
 import Contatos from './components/Contatos'
+import ResumoCurso from './components/ResumoCurso'
 import './App.css'
+
 
 
 function App() {
@@ -27,6 +29,7 @@ function App() {
      <Formulario/>
     <Depoimento/>
     <Contatos/>
+    <ResumoCurso/>
      <Footer/>
     </>
   )
