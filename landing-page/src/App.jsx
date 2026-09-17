@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 import Depoimento from './components/Depoimento'
 import Contatos from './components/Contatos'
 import ResumoCurso from './components/ResumoCurso'
+import StatusCurso from './components/StatusCurso'
 import './App.css'
 
 
@@ -26,6 +27,7 @@ function App() {
      />
    
      <Beneficios/>
+     <StatusCurso/>
      <Formulario/>
     <Depoimento/>
     <Contatos/>
