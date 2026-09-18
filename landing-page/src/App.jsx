@@ -10,6 +10,7 @@ import Depoimento from './components/Depoimento'
 import Contatos from './components/Contatos'
 import ResumoCurso from './components/ResumoCurso'
 import StatusCurso from './components/StatusCurso'
+import DadosCurso from './components/DadosCurso'
 import './App.css'
 
 
@@ -32,6 +33,7 @@ function App() {
     <Depoimento/>
     <Contatos/>
     <ResumoCurso/>
+     <DadosCurso/>
      <Footer/>
     </>
   )
